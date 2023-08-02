@@ -1,11 +1,11 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * _puts_recursion - prints string
  * @s: String to print
  */
 
-void _puts_recursion(char *s);
+void _puts_recursion(char *s)
 {
 	if (*s != '\0')
 	{
